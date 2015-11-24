@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75EDD5655B3BA0FE7119774B /* libPods-FacebookSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFED4CD24ECFD20F737D87FB /* libPods-FacebookSDK.a */; };
+		B66080CC1C04C16200F0A41F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66080CB1C04C16200F0A41F /* AppDelegate.swift */; };
+		B66080CE1C04C16200F0A41F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66080CD1C04C16200F0A41F /* ViewController.swift */; };
+		B66080D11C04C16200F0A41F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66080CF1C04C16200F0A41F /* Main.storyboard */; };
+		B66080D31C04C16200F0A41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66080D21C04C16200F0A41F /* Assets.xcassets */; };
+		B66080D61C04C16200F0A41F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66080D41C04C16200F0A41F /* LaunchScreen.storyboard */; };
+		B66080E11C04C16200F0A41F /* FacebookSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66080E01C04C16200F0A41F /* FacebookSDKTests.swift */; };
+		B66080EC1C04C16200F0A41F /* FacebookSDKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66080EB1C04C16200F0A41F /* FacebookSDKUITests.swift */; };
+		B66080FC1C04C22600F0A41F /* ObjectiveC-Bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = B66080FB1C04C22600F0A41F /* ObjectiveC-Bridge.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B66080DD1C04C16200F0A41F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66080C01C04C16200F0A41F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66080C71C04C16200F0A41F;
+			remoteInfo = FacebookSDK;
+		};
+		B66080E81C04C16200F0A41F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66080C01C04C16200F0A41F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66080C71C04C16200F0A41F;
+			remoteInfo = FacebookSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14CA363B5CE5A5566FC0C847 /* Pods-FacebookSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookSDK/Pods-FacebookSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		5E5F8031E4CC5D424471631C /* Pods-FacebookSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookSDK/Pods-FacebookSDK.release.xcconfig"; sourceTree = "<group>"; };
+		AFED4CD24ECFD20F737D87FB /* libPods-FacebookSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FacebookSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66080C81C04C16200F0A41F /* FacebookSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66080CB1C04C16200F0A41F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B66080CD1C04C16200F0A41F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B66080D01C04C16200F0A41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B66080D21C04C16200F0A41F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B66080D51C04C16200F0A41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B66080D71C04C16200F0A41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66080DC1C04C16200F0A41F /* FacebookSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66080E01C04C16200F0A41F /* FacebookSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookSDKTests.swift; sourceTree = "<group>"; };
+		B66080E21C04C16200F0A41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66080E71C04C16200F0A41F /* FacebookSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66080EB1C04C16200F0A41F /* FacebookSDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookSDKUITests.swift; sourceTree = "<group>"; };
+		B66080ED1C04C16200F0A41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66080F91C04C22600F0A41F /* FacebookSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		B66080FA1C04C22600F0A41F /* ObjectiveC-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjectiveC-Bridge.h"; sourceTree = "<group>"; };
+		B66080FB1C04C22600F0A41F /* ObjectiveC-Bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjectiveC-Bridge.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B66080C51C04C16200F0A41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EDD5655B3BA0FE7119774B /* libPods-FacebookSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66080D91C04C16200F0A41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66080E41C04C16200F0A41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A512E2C20ECF0507EF2E4CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFED4CD24ECFD20F737D87FB /* libPods-FacebookSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B66080BF1C04C16200F0A41F = {
+			isa = PBXGroup;
+			children = (
+				B66080CA1C04C16200F0A41F /* FacebookSDK */,
+				B66080DF1C04C16200F0A41F /* FacebookSDKTests */,
+				B66080EA1C04C16200F0A41F /* FacebookSDKUITests */,
+				B66080C91C04C16200F0A41F /* Products */,
+				C86B22033C011B68B2BED364 /* Pods */,
+				A512E2C20ECF0507EF2E4CCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B66080C91C04C16200F0A41F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B66080C81C04C16200F0A41F /* FacebookSDK.app */,
+				B66080DC1C04C16200F0A41F /* FacebookSDKTests.xctest */,
+				B66080E71C04C16200F0A41F /* FacebookSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B66080CA1C04C16200F0A41F /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B66080CB1C04C16200F0A41F /* AppDelegate.swift */,
+				B66080CD1C04C16200F0A41F /* ViewController.swift */,
+				B66080CF1C04C16200F0A41F /* Main.storyboard */,
+				B66080D21C04C16200F0A41F /* Assets.xcassets */,
+				B66080D41C04C16200F0A41F /* LaunchScreen.storyboard */,
+				B66080D71C04C16200F0A41F /* Info.plist */,
+				B66080FA1C04C22600F0A41F /* ObjectiveC-Bridge.h */,
+				B66080FB1C04C22600F0A41F /* ObjectiveC-Bridge.m */,
+				B66080F91C04C22600F0A41F /* FacebookSDK-Bridging-Header.h */,
+			);
+			path = FacebookSDK;
+			sourceTree = "<group>";
+		};
+		B66080DF1C04C16200F0A41F /* FacebookSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				B66080E01C04C16200F0A41F /* FacebookSDKTests.swift */,
+				B66080E21C04C16200F0A41F /* Info.plist */,
+			);
+			path = FacebookSDKTests;
+			sourceTree = "<group>";
+		};
+		B66080EA1C04C16200F0A41F /* FacebookSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B66080EB1C04C16200F0A41F /* FacebookSDKUITests.swift */,
+				B66080ED1C04C16200F0A41F /* Info.plist */,
+			);
+			path = FacebookSDKUITests;
+			sourceTree = "<group>";
+		};
+		C86B22033C011B68B2BED364 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14CA363B5CE5A5566FC0C847 /* Pods-FacebookSDK.debug.xcconfig */,
+				5E5F8031E4CC5D424471631C /* Pods-FacebookSDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B66080C71C04C16200F0A41F /* FacebookSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66080F01C04C16200F0A41F /* Build configuration list for PBXNativeTarget "FacebookSDK" */;
+			buildPhases = (
+				2D6F2D5D593F5E07D454D5C4 /* Check Pods Manifest.lock */,
+				B66080C41C04C16200F0A41F /* Sources */,
+				B66080C51C04C16200F0A41F /* Frameworks */,
+				B66080C61C04C16200F0A41F /* Resources */,
+				F7754C91F5E5850990F981C9 /* Embed Pods Frameworks */,
+				7D2745B3EBB9345B124CA8AD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookSDK;
+			productName = FacebookSDK;
+			productReference = B66080C81C04C16200F0A41F /* FacebookSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B66080DB1C04C16200F0A41F /* FacebookSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66080F31C04C16200F0A41F /* Build configuration list for PBXNativeTarget "FacebookSDKTests" */;
+			buildPhases = (
+				B66080D81C04C16200F0A41F /* Sources */,
+				B66080D91C04C16200F0A41F /* Frameworks */,
+				B66080DA1C04C16200F0A41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B66080DE1C04C16200F0A41F /* PBXTargetDependency */,
+			);
+			name = FacebookSDKTests;
+			productName = FacebookSDKTests;
+			productReference = B66080DC1C04C16200F0A41F /* FacebookSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B66080E61C04C16200F0A41F /* FacebookSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66080F61C04C16200F0A41F /* Build configuration list for PBXNativeTarget "FacebookSDKUITests" */;
+			buildPhases = (
+				B66080E31C04C16200F0A41F /* Sources */,
+				B66080E41C04C16200F0A41F /* Frameworks */,
+				B66080E51C04C16200F0A41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B66080E91C04C16200F0A41F /* PBXTargetDependency */,
+			);
+			name = FacebookSDKUITests;
+			productName = FacebookSDKUITests;
+			productReference = B66080E71C04C16200F0A41F /* FacebookSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B66080C01C04C16200F0A41F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = HConnery;
+				TargetAttributes = {
+					B66080C71C04C16200F0A41F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					B66080DB1C04C16200F0A41F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B66080C71C04C16200F0A41F;
+					};
+					B66080E61C04C16200F0A41F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B66080C71C04C16200F0A41F;
+					};
+				};
+			};
+			buildConfigurationList = B66080C31C04C16200F0A41F /* Build configuration list for PBXProject "FacebookSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B66080BF1C04C16200F0A41F;
+			productRefGroup = B66080C91C04C16200F0A41F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B66080C71C04C16200F0A41F /* FacebookSDK */,
+				B66080DB1C04C16200F0A41F /* FacebookSDKTests */,
+				B66080E61C04C16200F0A41F /* FacebookSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B66080C61C04C16200F0A41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66080D61C04C16200F0A41F /* LaunchScreen.storyboard in Resources */,
+				B66080D31C04C16200F0A41F /* Assets.xcassets in Resources */,
+				B66080D11C04C16200F0A41F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66080DA1C04C16200F0A41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66080E51C04C16200F0A41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D6F2D5D593F5E07D454D5C4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2745B3EBB9345B124CA8AD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookSDK/Pods-FacebookSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7754C91F5E5850990F981C9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookSDK/Pods-FacebookSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B66080C41C04C16200F0A41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66080CE1C04C16200F0A41F /* ViewController.swift in Sources */,
+				B66080CC1C04C16200F0A41F /* AppDelegate.swift in Sources */,
+				B66080FC1C04C22600F0A41F /* ObjectiveC-Bridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66080D81C04C16200F0A41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66080E11C04C16200F0A41F /* FacebookSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66080E31C04C16200F0A41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66080EC1C04C16200F0A41F /* FacebookSDKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B66080DE1C04C16200F0A41F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66080C71C04C16200F0A41F /* FacebookSDK */;
+			targetProxy = B66080DD1C04C16200F0A41F /* PBXContainerItemProxy */;
+		};
+		B66080E91C04C16200F0A41F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66080C71C04C16200F0A41F /* FacebookSDK */;
+			targetProxy = B66080E81C04C16200F0A41F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B66080CF1C04C16200F0A41F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66080D01C04C16200F0A41F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B66080D41C04C16200F0A41F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66080D51C04C16200F0A41F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B66080EE1C04C16200F0A41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B66080EF1C04C16200F0A41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B66080F11C04C16200F0A41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CA363B5CE5A5566FC0C847 /* Pods-FacebookSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FacebookSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hconnery.FacebookSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacebookSDK/FacebookSDK-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B66080F21C04C16200F0A41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5F8031E4CC5D424471631C /* Pods-FacebookSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FacebookSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hconnery.FacebookSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacebookSDK/FacebookSDK-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B66080F41C04C16200F0A41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FacebookSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hconnery.FacebookSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookSDK.app/FacebookSDK";
+			};
+			name = Debug;
+		};
+		B66080F51C04C16200F0A41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FacebookSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hconnery.FacebookSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookSDK.app/FacebookSDK";
+			};
+			name = Release;
+		};
+		B66080F71C04C16200F0A41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FacebookSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hconnery.FacebookSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FacebookSDK;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B66080F81C04C16200F0A41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FacebookSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hconnery.FacebookSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FacebookSDK;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B66080C31C04C16200F0A41F /* Build configuration list for PBXProject "FacebookSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66080EE1C04C16200F0A41F /* Debug */,
+				B66080EF1C04C16200F0A41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66080F01C04C16200F0A41F /* Build configuration list for PBXNativeTarget "FacebookSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66080F11C04C16200F0A41F /* Debug */,
+				B66080F21C04C16200F0A41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66080F31C04C16200F0A41F /* Build configuration list for PBXNativeTarget "FacebookSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66080F41C04C16200F0A41F /* Debug */,
+				B66080F51C04C16200F0A41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66080F61C04C16200F0A41F /* Build configuration list for PBXNativeTarget "FacebookSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66080F71C04C16200F0A41F /* Debug */,
+				B66080F81C04C16200F0A41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B66080C01C04C16200F0A41F /* Project object */;
+}
